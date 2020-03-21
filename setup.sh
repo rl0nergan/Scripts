@@ -14,7 +14,7 @@ echo "$IP_ADDR scripted" >> /etc/hosts
 timedatectl set-timezone 'America/New_York'
 
 USERNAME="rlonergan"
-PASS="p00pcak3s!"
+PASS="p00pcak3s"
 
 #Create a limited user and set the password
 read -p "Enter a username: " USERNAME
