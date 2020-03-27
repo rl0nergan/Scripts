@@ -26,7 +26,7 @@ echo "Beginning transfer..."
 
 scp -i "/Users/rlonergan/.ssh/admin" -q "/Users/rlonergan/.ssh/admin.pub" "root@$ip_addr:~/"
 scp -i "/Users/rlonergan/.ssh/admin" "setup.sh" "root@$ip_addr:~/"
-ssh -i "/Users/rlonergan/.ssh/admin" "root@$ip_addr" "./setup.sh $ip_addr"
+#ssh -i "/Users/rlonergan/.ssh/admin" "root@$ip_addr" "./setup.sh $ip_addr"
 echo "Linode Secure"
 sleep 2
 echo "Connecting"
@@ -40,3 +40,5 @@ ssh -i "~/.ssh/admin" "rlonergan@$ip_addr"
     #"image": "linode/ubuntu18.04", 
     #"region": "us-east"
     #}]
+
+    
